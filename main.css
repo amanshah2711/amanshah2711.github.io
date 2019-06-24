@@ -54,7 +54,7 @@
     height: 40px;
     width: 40px;
     margin-right: 5px;
-    background-image: url('letter.png');
+    background-image: url('email-outline.png');
     background-size: 100%;
     vertical-align: middle;
 }
@@ -70,7 +70,7 @@
     height: 40px;
     margin-right: 5px;
     width: 40px;
-    background-image: url('brief.png');
+    background-image: url('briefcase-outline.png');
     background-size: 100%;
     vertical-align: middle;
 }
