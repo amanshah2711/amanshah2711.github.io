@@ -54,7 +54,7 @@
     height: 40px;
     width: 40px;
     margin-right: 5px;
-    background-image: url('email-outline.png');
+    background-image: url('letter.png');
     background-size: 100%;
     vertical-align: middle;
 }
@@ -98,6 +98,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2rem
 }
+
+.discussion_links{
+    display: flex;
+}
+
+.worksheet{
+    margin-left: 2rem
+}
+.slides{
+    margin-left: 2rem
+}
+
 .right_column_block_two{
     background-color: white;
     padding: 15px;
