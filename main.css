@@ -143,6 +143,5 @@
     color: black;
   }
 .right_column_block_zero a.active{
-    background-color: rgb(92, 92, 92);
-  color: white;
+    background-color: #ddd;
 }
