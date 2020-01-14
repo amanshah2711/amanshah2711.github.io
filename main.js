@@ -2,12 +2,21 @@ var curr = "#sp20-content";
 
 function test(input){
     $(curr).hide();
+    console.log(curr)
     curr = input;
     $(curr).slideDown();
 }
 $(document).ready(function() {
     // all custom jQuery will go here
-    $("#main").load("https://amanshah2711.github.io/fa19.html")
+    $.each([
+        'fa19.html',
+        'csm-fa19.html',
+        'su19.html',
+        'csm-sp20.html',
+        'sp20.html'
+    ], function(i,a){
+        $("#main").load(a);
+    });;
     $("#fa19-content").hide();
     $("#csm-fa19-content").hide();
     $("#csm-sp20-content").hide();
