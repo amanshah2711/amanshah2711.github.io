@@ -16,7 +16,7 @@ $(document).ready(function() {
         'sp20.html'
     ], function(i,a){
         $("#main").load(a);
-    });;
+    });
     $("#fa19-content").hide();
     $("#csm-fa19-content").hide();
     $("#csm-sp20-content").hide();
