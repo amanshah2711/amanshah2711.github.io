@@ -1,4 +1,4 @@
-var curr = "#sp20-content"
+var curr = "#sp20-content";
 
 function test(input){
     $(curr).hide();
