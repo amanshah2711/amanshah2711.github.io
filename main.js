@@ -7,12 +7,6 @@ function test(input){
 }
 $(document).ready(function() {
     // all custom jQuery will go here
-    $.each([
-        'fa19.html',
-        'csm-fa19.html'
-    ], function(i,a){
-        $("#main").load(a);
-    });;
     $("#fa19-content").hide();
     $("#csm-fa19-content").hide();
     $("#csm-sp20-content").hide();
