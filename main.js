@@ -7,6 +7,7 @@ function test(input){
 }
 $(document).ready(function() {
     // all custom jQuery will go here
+    $("#main").load("https://amanshah2711.github.io/fa19.html")
     $("#fa19-content").hide();
     $("#csm-fa19-content").hide();
     $("#csm-sp20-content").hide();
