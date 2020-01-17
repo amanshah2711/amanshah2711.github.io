@@ -134,3 +134,7 @@ width: inherit;
     background: #363636;
     color: white;
 }
+
+.a {
+    color: rgb(0, 153, 255);
+}
