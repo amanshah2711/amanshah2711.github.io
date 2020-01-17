@@ -102,6 +102,7 @@ width: inherit;
     padding:20px;
     width: 100%;
     height: inherit;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.8);
     color: #fff;
     border-radius: 5px;
     text-align: center;
