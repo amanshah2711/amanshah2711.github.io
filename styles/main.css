@@ -94,7 +94,7 @@ width: inherit;
 .info-wrapper{
     margin-right: 15px;
     border-radius: 5px;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.6);
     flex: 3;
 }
 .info-table {
