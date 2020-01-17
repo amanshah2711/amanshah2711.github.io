@@ -11,8 +11,8 @@ $(document).ready(function() {
 
     $.get("https://amanshah2711.github.io/cs61a/discussion/fa19/fa19.html", '', function (data) { $("#main").append(data); });
     $.get("https://amanshah2711.github.io/cs61a/csm/fa19/csm-fa19.html", '', function (data) { $("#main").append(data); });
-    $.get("https://amanshah2711.github.io/cs61a/discussion/su19.html", '', function (data) { $("#main").append(data); });
-    $.get("https://amanshah2711.github.io/cs61a/discussion/sp20.html", '', function (data) { $("#main").append(data); });
+    $.get("https://amanshah2711.github.io/cs61a/discussion/sp19/su19.html", '', function (data) { $("#main").append(data); });
+    $.get("https://amanshah2711.github.io/cs61a/discussion/sp20/sp20.html", '', function (data) { $("#main").append(data); });
     $.get("https://amanshah2711.github.io/cs61a/csm/sp20/csm-sp20.html", '', function (data) { $("#main").append(data); });
 
     $("#sp20").click(function() {
