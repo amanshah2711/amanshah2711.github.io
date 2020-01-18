@@ -24,7 +24,7 @@ body{
     border-radius: 5px;
     text-align: center;
     color: whitesmoke;
-    align-items: flex-start;
+    align-self: flex-start;
 
 }
 .right-wrapper{
