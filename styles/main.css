@@ -15,17 +15,18 @@ body{
 
 .sidebar{
     position: sticky;
+    position: -webkit-sticky;
     font-family: "Poppins", sans-serif;
     flex:1.2;
     background: #2196F3;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.8);
     margin-top: 20px;
     margin-left: 20px;
+    top:0;
     border-radius: 5px;
     text-align: center;
     color: whitesmoke;
     align-self: flex-start;
-
 }
 .right-wrapper{
     flex:5;
