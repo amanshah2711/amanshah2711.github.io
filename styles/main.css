@@ -44,6 +44,8 @@ body{
     margin-left: 20px;
     border-radius: 5px;
     color:white;
+    overflow-x: scroll;
+    white-space: nowrap;
 }
 
 .nav-bar button{
