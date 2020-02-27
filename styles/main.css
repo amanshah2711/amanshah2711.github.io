@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #f7f7f7; 
+    background-color: #1d1d1d; 
 }
 .wrapper{
     display:flex;
@@ -124,7 +124,7 @@ width: inherit;
 }
 .holder{
     flex:3;
-    background: #f7f7f7;
+    background: #1d1d1d;
     display: flex;
     flex-direction: column;
 }
