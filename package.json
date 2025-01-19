@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://amanshah2711.github.io",
+  "homepage": "https://amanshah2711.me",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
