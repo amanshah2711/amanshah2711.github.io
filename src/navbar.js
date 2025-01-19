@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function NavBar(){
   return (
     <div class="row justify-content-md-center">
@@ -10,10 +12,10 @@ export default function NavBar(){
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="/paper-blog">Blog</a>
+                    <a class="nav-link" href="https://blog.amanshah2711.me">Blog</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/projects">Projects</a>
+                    <Link to="projects" className="nav-link">Projects</Link>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
