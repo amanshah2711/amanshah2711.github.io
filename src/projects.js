@@ -12,18 +12,8 @@ export default function Projects () {
                     <p class="card-text">Chess was implemented using Python for the backend logic and Flask to create a webserver connecting to the GUI.</p>
                 </div>
                 <div class="card-footer">
-                <a href="https://chess.amanshah2711.me" class="float-end"><MdOutlineOpenInNew /></a>
-                <a href="https://github.com/amanshah2711/chess-react" class="float-end"> <BsGithub/> </a>
-                </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Tic-Tac-Toe</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
+                    <a href="https://chess.amanshah2711.me" className="float-end"><MdOutlineOpenInNew /></a>
+                    <a href="https://github.com/amanshah2711/chess-react" className="float-end me-2"> <BsGithub/> </a>
                 </div>
                 </div>
             </div>
@@ -32,10 +22,11 @@ export default function Projects () {
                 <img src="" class="card-img-top" alt=""/>
                 <div class="card-body">
                     <h5 class="card-title">Crossword Leaderboard</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text">Built for friends to race in the NYT crossword! Frontend designed using React and backend uses Flask. Data is managed in a PostgreSQL database. </p>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <a href="https://xwleaderboard.amanshah2711.me" className="float-end"><MdOutlineOpenInNew /></a>
+                    <a href="https://github.com/amanshah2711/xw-leaderboard" className="float-end me-2"> <BsGithub/> </a>
                 </div>
                 </div>
             </div>
